@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLES CONFERENCE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+        .container1{
+            border: none;
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Lato', sans-serif;
+            background-color: #293f50;
+            /* align-items: center; */
+            /* justify-content: space-between; */
+        }
+        .container2{
+            width: 50%;
+            padding-left: 8rem;
+            display: flex;
+            align-items: center;
+        }
+        .container2 a{
+            text-decoration: none;
+            color: white;
+        }
+        .container3{
+            width: 50%;
+            padding-right: 8rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .p1{
+            padding-top: 2rem;
+            font-size: 3rem;
+            font-weight: 200;
+            color: white;
+            width: 30%;
+        }
+        .p2{
+            display: flex;
+            color: #888;
+            padding-top: 4rem;
+            font-size: 1.5rem;
+            font-weight: 300;
+            /* align-items: center; */
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: none;
+            padding-top: 2rem;
+        }
+        ul li{
+            padding: 0rem 1rem;
+        }
+        ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .container4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #293f50;
+            padding: 3rem 0rem;
+            line-height: 3rem;
+        }
+        .p3{
+            color: #888;
+            font-size: 2rem;
+            font-weight: 300;
+        }
+        .p4{
+            color: white;
+            font-size: 1.6rem;
+            width: 70%;
+            font-weight: 200;
+            text-align: center;
+        }
+        .btn{
+            border: 1px solid white;
+            margin: 1.5rem 0rem;
+            padding: 1.5rem 2.5rem;
+            border-radius: 7px;
+            background-color: #293f50;
+            color: white;
+            font-size: 1rem;
+        }
+        .btn:hover{
+            background-color: white;
+            color: #888;
+            cursor: pointer;
+        }
+        .container5{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 5rem 0rem;
+        }
+        .boxes{
+            width: 25%;
+            margin: 0rem 1rem;
+        }
+        .boxes img{
+            width: 100%;
+            background-size: cover;
+            border-radius: 10px;
+        }
+        .container5 h5{
+            margin: 1rem 0rem;
+            color: #888;
+        }
+        .container5 h3{
+            margin: 1.5rem 0rem;
+            font-weight: 300;
+            color: #888;
+            font-size: 1.5rem;
+        }
+        .container5 .p5{
+            color: #888;
+            font-weight: 300;
+            line-height: 1.5rem;
+            width: 90%;
+        }
+        @media screen and (max-width:1020px) {
+            .container2{
+                padding-left: 4rem;
+            }
+            .p2{
+                text-align: end;
+            }
+            .container3{
+                padding-right: 4rem;
+            }
+            ul{
+                padding-top: 5rem;
+            }
+            ul li{
+                padding: 0rem .5rem;
+            }
+        }
+        @media screen and (max-width:700px) {
+            .container2{
+                padding-left: 1rem;
+                align-items: unset;
+            }
+            .container2 a{
+                font-size: 1rem;
+                padding-top: 0rem;
+            }
+            .container3{
+                padding-right: 1rem;
+                align-items: unset;
+            }
+            .p1{
+                font-size: unset;
+                padding-top: 1rem;
+            }
+            .p2{
+                font-size: 1rem;
+                padding-top: 2rem;
+                text-align: end;
+            }
+            ul{
+                padding-top: .5rem;
+            }
+            ul li{
+                padding: 0rem .2rem;
+                font-size: .38rem;
+            }
+            .container4{
+                padding: 1rem 0rem;
+                line-height: 1.3rem;
+            }
+            .p3{
+                text-align: center;
+                font-size: 1.1rem;
+            }
+            .p4{
+                width: 90%;
+                font-size: 1rem;
+            }
+            .btn{
+                padding: 1rem 1.5rem;
+            }
+            .container5 h5{
+                font-size: .6rem;
+            }
+            .boxes{
+                width: 25%;
+            }
+            .container5 h3{
+                font-size: 1rem;
+                text-align: center;
+            }
+            .container5 .p5{
+                font-size: .5rem;
+                line-height: .6rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+        <p class="p1"><a href="#">STYLES CONFERENCE</a></p>
+    </div>
+    <div class="container3">
+        <P class="p2">August 24–26th — Chicago, IL</P>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SPEAKERS</a></li>
+            <li><a href="#">SCHEDULE</a></li>
+            <li><a href="#">VENUE</a></li>
+            <li><a href="#">REGISTER</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="container4">
+        <p class="p3">Dedicated to the Craft of Building Websites</p>
+        <p class="p4">Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest tech logies. Join us this August!</p>
+        <button class="btn">REGISTER NOW</button>
+    </div>
+    <div class="container5">
+        <div class="boxes">
+            <h5>SPEAKERS</h5>
+            <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/speakers.jpg" alt="">
+            <h3>World-Class Speakers</h3>
+            <p class="p5">Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+        </div>
+        <div class="boxes">
+            <h5>SCHEDULE
+            </h5>
+            <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/schedule.jpg" alt="">
+            <h3>Three Inspiring Days</h3>
+            <p class="p5">Enjoy three inspiring and action-packed days of tals, gatherings, and all-around good times.</p>
+        </div>
+        <div class="boxes">
+            <h5>VENUE</h5>
+            <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/venue.jpg" alt="">
+            <h3>The Chicago Theatre</h3>
+            <p class="p5">Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue</p>
+        </div>
+    </div>
+</body>
+</html>
